@@ -11,4 +11,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ---
 
 ### Desktop:
-![webpage](https://github.com/murilonp/projeto-site-flexbox/blob/main/assets/images/layout.png)
+![webpage](https://github.com/murilonp/validador-de-form/blob/main/assets/img/layout.png)
