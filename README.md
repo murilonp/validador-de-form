@@ -6,7 +6,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-- [Link do projeto](https://github.com/murilonp/validador-de-form/blob/main/assets/img/layout.png)
+- [Link do projeto](https://murilonp.github.io/validador-de-form/)
 
 ---
 
