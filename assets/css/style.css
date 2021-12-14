@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Poppins';
+}
+
+body {
+  background-color: #000626;
+}
+
+.screen {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side img {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #03f1f1;
+}
+
+.right-side {
+  width: 500px;
+  padding: 50px;
+  background-color: #2f3136;
+}
+
+h1,
+span {
+  color: #f8f8f8;
+}
+
+input {
+  display: block;
+  padding: 10px 0px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #03f1f1;
+  color: #f8f8f8;
+}
+
+/* Seletor por atributo e seu valor */
+input[name*='name'] {
+  margin-bottom: 3px;
+}
+
+input[type='password'] {
+  width: 50%;
+}
+
+input[type='submit'] {
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #000626;
+  color: #03f1f1;
+  transition: background ease 0.2s;
+}
+
+input[type='submit']:hover {
+  background-color: #19191c;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+span a {
+  color: #03f1f1;
+}
+
+.error {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #950101;
+  color: #f8f8f8;
+}

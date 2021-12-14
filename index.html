@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/app.js" defer></script>
+    <title>Tela de cadastro</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="left-side">
+        <img src="/assets/img/background-academy-3.jpg" alt="" />
+      </div>
+      <div class="right-side">
+        <h1>Crie uma conta</h1>
+        <form action="#" method="post" class="validator">
+          <input
+            type="text"
+            name="name"
+            maxlength="21"
+            data-rules="required|min=5"
+            placeholder="Nome:"
+          />
+          <input
+            type="text"
+            name="last-name"
+            maxlength="21"
+            data-rules="required|min=5"
+            placeholder="Sobrenome:"
+          />
+          <input
+            type="text"
+            name="email"
+            data-rules="required|email"
+            placeholder="E-mail:"
+          />
+          <input
+            type="password"
+            name="password"
+            maxlength="16"
+            data-rules="required|min=6"
+            placeholder="Senha:"
+          />
+          <input type="submit" value="Cadastrar" />
+        </form>
+        <span> Já tem uma conta? <a href="#">Faça o Login</a> </span>
+      </div>
+    </div>
+  </body>
+</html>
